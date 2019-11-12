@@ -18,7 +18,7 @@ class App extends Component {
     this.state = {
        cityName: "hyderabad",
        forecastDays: 5,
-       isLoading: true,
+       //isLoading: true,
     };
   }
 
@@ -31,8 +31,7 @@ class App extends Component {
     .then(res => {
       return res.data;
     }).then((data) =>{
-      this.setState({ 
-      isLoading:false, location:data.location.region,temperature:data.current.temperature, is_day: data.current.is_day,
+      this.setState({  location:data.location.region,temperature:data.current.temperature, is_day: data.current.is_day,
        weather_descriptions: data.current.weather_descriptions, weather_icons: data.current.weather_icons, wind_speed: data.current.wind_speed })
     })
     .catch(err => {
