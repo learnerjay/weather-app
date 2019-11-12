@@ -1,6 +1,14 @@
-Currently the hosted link is not working.
+
+
+Note : The Weather stack will not allow , user's to access the response in http in web.
+So hosted app is not working but if you want to check you can clone the repo in local & Run the app using "npm run start".
+
+
 Till that time, Check the video for referencing.
 https://drive.google.com/file/d/1pE35igr1QPqgee8ijlnu6VYM5uXW_NSh/view
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
