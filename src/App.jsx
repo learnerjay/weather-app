@@ -17,7 +17,7 @@ class App extends Component {
     super(props);
     this.state = {
        cityName: "hyderabad",
-       forecastDays: 5,
+       //forecastDays: 5,
        //isLoading: true,
     };
   }
