@@ -9,7 +9,7 @@ import BottomSection from "./components/bottom/index";
 
 import axios from "axios";
 //import { EventEmitter } from "events";
-const WEATHER_KEY = "a34d45875d8d51720f36285f0d100805";
+const WEATHER_KEY = "a34d45875d8d51720f36285f0d1008503";
 
 
 class App extends Component {
