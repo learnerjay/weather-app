@@ -9,7 +9,7 @@ import BottomSection from "./components/bottom/index";
 
 import axios from "axios";
 //import { EventEmitter } from "events";
-const WEATHER_KEY = "a34d45875d8d51720f36285f0d1008503";
+const WEATHER_KEY = "a34d45875d8d51720f36285f0d100805";
 
 
 class App extends Component {
@@ -25,7 +25,7 @@ class App extends Component {
   updateWeather(){
     const {cityName, forecastDays} = this.state;
 
-    const URL = `http://api.weatherstack.com/current?access_key=${WEATHER_KEY}&query=${cityName}&days=${forecastDays}`;
+    const URL = `https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/current?access_key=${WEATHER_KEY}&query=${cityName}&days=${forecastDays}`;
     axios
     .get(URL)
     .then(res => {
