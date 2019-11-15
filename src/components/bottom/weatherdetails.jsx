@@ -11,7 +11,6 @@ export default class Weatherdetails extends React.Component{
     render(){
         const {wind_speed} = this.props;
         return <div className="weatherdetails-container">
-         <div className="text">{wind_speed}KMPH</div>  
         </div>;
     }
 }
