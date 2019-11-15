@@ -1,8 +1,10 @@
 
 
-Note : The Weather stack will not allow , user's to access the response in http in web.
-So hosted app is not working but if you want to check you can clone the repo in local & Run the app using "npm run start".
+Directly Search for places with name, it will give results in Temp, Weather Desc. logo and wind speed. 
 
+https://elastic-bohr-e07c0c.netlify.com/
+
+If sometime server not working for refrence, you can view the added video down here.
 
 Till that time, Check the video for referencing.
 https://drive.google.com/file/d/1pE35igr1QPqgee8ijlnu6VYM5uXW_NSh/view
